@@ -1,1 +1,4 @@
 # Traveling-Salesman-using-Evolutionary-Algorithm
+In the Traveling Salesman Problem, the goal is to find the shortest route for a salesman who wants to pass through N cities in such a way that she/he passes through all the cities exactly once and returns to the starting city. In this project, genetic algorithm is used to solve TSP problem.
+To evaluate the model, the data of three sets 535ali, 2103d and 29baysg from TSPLIB have been used. This data including necessary explanations are available via this link: https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/tsp
+For training part, competitive selection method, rotary recombination method and insertion mutation method are used and the initial population is randomly selected, also the value of mutation rate is 2% and recombination rate is 90%.
